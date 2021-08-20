@@ -1,0 +1,24 @@
+{
+  "name": "apieddiecon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/server.js",
+    "test": "cucumber-js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zain-Muiz/ApiEddiecon.git"
+  },
+  "author": "zainu10863@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zain-Muiz/ApiEddiecon/issues"
+  },
+  "homepage": "https://github.com/Zain-Muiz/ApiEddiecon#readme",
+  "devDependencies": {
+    "@cucumber/cucumber": "^7.3.1",
+    "pactum": "^3.0.18"
+  }
+}
