@@ -5,7 +5,7 @@ const app = express();
 const port = 3000;
 
 app.get("/", (req, res) => {
-  res.send({ name: "hello world!" });
+  res.send({ name: "Welcome to Eddiecon 1.0 !" });
 });
 
 app.get("/events", async (req, res) => {

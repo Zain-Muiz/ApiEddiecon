@@ -4,7 +4,7 @@ Feature: Linktree alternative
         Given I make a GET request to "http://localhost:3000"
         When I receive a response
         Then response should have a status 200
-        And response should have a body "{\"name\":\"hello world!\"}"
+        And response should have a body "{\"name\":\"Welcome to Eddiecon 1.0 !\"}"
 
     Scenario: Get socials
         Given I make a GET request to "http://localhost:3000/events"
